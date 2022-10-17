@@ -140,4 +140,5 @@ Use this in tests for running assertions against your formatted text.
 equals : EqualCheck (FormattedText markup)
 equals formattedA formattedB =
     FT.equal formattedA formattedB
-        |> Expect.true "Expected the formatted text to be the same."
+        |> Expect.equal True
+        |> Expect.onFail "Expected the formatted text to be the same."
