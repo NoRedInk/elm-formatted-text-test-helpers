@@ -3,7 +3,7 @@
     "name": "NoRedInk/elm-formatted-text-test-helpers",
     "summary": "A type for representing formatted text",
     "license": "BSD-3-Clause",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "exposed-modules": [
         "FormattedText.Fuzz"
     ],
